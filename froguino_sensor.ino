@@ -4,8 +4,8 @@ int TEMP_SENSOR_PIN = 0; // analog pin
 String TEMP_SENSOR_NAME = "temp";
 int NUMBER_OF_READING = 10;
 float temperature = 0; 
-// Delay between
-int DELAY = 1000;
+// Delay between  5 min
+int DELAY = 5*60*1000;
 
 
 int i;
